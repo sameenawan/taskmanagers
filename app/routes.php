@@ -4,7 +4,7 @@
 Route::group(array('prefix' => 'admin'), function()
 {
 
-	# User Management
+	# User
 	Route::group(array('prefix' => 'users'), function()
 	{
 		Route::get('/', array('as' => 'users', 'uses' => 'Controllers\Admin\UsersController@getIndex'));
@@ -12,7 +12,7 @@ Route::group(array('prefix' => 'admin'), function()
 		Route::post('create', 'Controllers\Admin\UsersController@postCreate');
 			});
 
-	# Group Management
+	# Group
 	Route::group(array('prefix' => 'groups'), function()
 	{
 		Route::get('/', array('as' => 'groups', 'uses' => 'Controllers\Admin\GroupsController@getIndex'));

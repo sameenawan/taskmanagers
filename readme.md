@@ -2,6 +2,8 @@
 #GITHUB URL:
 <https://github.com/sameenawan/taskmanagers>
 
+<br>login: admin@domain.com  
+<br>password: password
 
 
 
@@ -10,11 +12,6 @@ Description
 Task Manager project. Lets users create their school schedule by creating tasks.
 it is supposed to have lots of functionality but i didnt get to finish all of it. some of the functionality works but links in nav are not created.  
 
-Details for teaching team
-
-Public site 
-<br>login: admin@domain.com  
-<br>password: password
 
 
 
@@ -28,5 +25,5 @@ Here is some other versions i worked one but didnt complete:
 
 
 
-I used some outside sources to help me create this project, i used some suggestions from tutorials from bizBiscuit.com management systems for functionality and user interface stuff.
+I used some outside sources to help me create this project and looked at laracasts.com tutorials too. I used some suggestions from tutorials from bizBiscuit.com management systems for functionality and user interface stuff.
 
